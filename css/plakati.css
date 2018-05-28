@@ -1,0 +1,177 @@
+head, body {
+	margin: 0;
+	padding: 0;
+	background-color: #d6f9f8;
+}
+
+.kontejner {
+	max-width: 1200px;
+	height: 100vh;
+    margin: 0 auto;
+    position: relative;
+}
+
+.plakat img {
+	top: 50px;
+	bottom: 50px;
+	position: absolute;
+	width: 65px;
+	height: 2000px;
+}
+
+.dugme img {
+	position: relative;
+	float: right;
+	top: 2020px;
+	width: 60px;
+	height: 40px;
+}
+
+.hover1 .poz1 img {
+	position: absolute;
+	top: 110px;
+	left: 280px;
+	height: 520px;
+	width: 320px;
+	visibility: hidden;
+}
+
+.hover1 .prva img {
+    top: 70px;
+    left: 230px;
+	display: inline-block;
+	position: absolute;
+    height: 650px;
+    width: 450px;
+}
+
+.hover1:hover .poz1 img {
+	visibility: visible;
+}
+
+.hover2 .druga img {
+	padding: 30px;
+    margin: 40px;
+    left: 700px;
+	display: inline-block;
+	position: absolute;
+    height: 650px;
+    width: 450px;
+}
+
+.hover2 .poz2 img {
+	position: absolute;
+	top: 100px;
+	left: 815px;
+	height: 500px;
+	width: 350px;
+	visibility: hidden;
+}
+
+.hover2:hover .poz2 img {
+	visibility: visible;
+}
+
+.hover3 .treca img {
+	padding: 30px;
+    margin: 40px;
+    top: 700px;
+    left: 130px;
+	display: inline-block;
+	position: absolute;
+    height: 650px;
+    width: 450px;
+}
+
+.hover3 .poz3 img {
+	position: absolute;
+	top: 830px;
+	left: 230px;
+	height: 500px;
+	width: 350px;
+	visibility: hidden;
+}
+
+.hover3:hover .poz3 img {
+	visibility: visible;
+}
+
+.hover4 .cetvrta img {
+	padding: 30px;
+    margin: 40px;
+    left: 700px;
+    top: 690px;
+	display: inline-block;
+	position: absolute;
+    height: 650px;
+    width: 450px;
+}
+
+.hover4 .poz4 img {
+	position: absolute;
+	top: 830px;
+	left: 800px;
+	height: 500px;
+	width: 350px;
+	visibility: hidden;
+}
+
+.hover4:hover .poz4 img {
+	visibility: visible;
+}
+
+.hover5 .peta img {
+	padding: 30px;
+    margin: 40px;
+    left: 300px;
+    top: 1450px;
+	display: inline-block;
+	position: absolute;
+    height: 450px;
+    width: 650px;
+}
+
+.hover5 .poz5 img {
+	position: absolute;
+	top: 1580px;
+	left: 440px;
+	height: 300px;
+	width: 480px;
+	visibility: hidden;
+}
+
+.hover5:hover .poz5 img {
+	visibility: visible;
+}
+
+.drustveno {
+	display: inline-block;
+	position: absolute;
+	left: 950px;
+	top: 2270px;
+}
+
+.drustveno .fb {
+	width: 10px;
+	height: 30px;
+}
+
+.drustveno .in {
+	width: 30px;
+	height: 30px;
+	margin-left: 20px;
+}
+
+
+input, textarea, label {
+  display: block;
+}
+
+form {
+	padding: 30px;
+	width: 900px;
+	display: inline-block;
+	position: absolute;
+	left: 120px;
+	top: 2100px;
+}

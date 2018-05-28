@@ -1,0 +1,58 @@
+head, body {
+	background-color: #cdd691;
+	margin: 0;
+	padding: 0;
+}
+
+.kontejner {
+	max-width: 1200px;
+	height: 100vh;
+    margin: 0 auto;
+    position: relative;
+}
+
+.dugme a img {
+	position: relative;
+	float: right;
+	padding: 20px;
+	top: 1320px;
+	width: 60px;
+	height: 40px;
+}
+
+.tekst {
+	display: inline-block;
+	position: absolute;
+	top: 100px;
+	width: 900px;
+}
+
+.tekst h2 {
+	font-family: "Arial", san-serif;
+}
+
+.tekst p {
+	font-size: 18px;
+	font-family: "Arial", san-serif;
+}
+
+.covek {
+	margin: 5px;
+	position: fixed;
+	display: inline-block;
+	right: 160px;
+	top: 20px;
+}
+
+.covek img {
+	width: 200px;
+	height: 200px;
+}
+
+footer img {
+	display: inline-block;
+	position: absolute;
+	width: 1180px;
+	height: 160px;
+	top: 1400px;
+}

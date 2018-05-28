@@ -1,0 +1,70 @@
+head, body {
+	background-color: #db9e97;
+	margin: 0;
+	padding: 0;
+}
+
+.kontejner {
+	max-width: 1200px;
+	height: 100vh;
+    margin: 0 auto;
+    position: relative;
+}
+
+.dugme a img {
+	position: relative;
+	float: right;
+	top: 700px;
+	width: 60px;
+	height: 40px;
+}
+
+.prezent1 img {
+	width: 270px;
+	height: 680px;
+	display: inline-block;
+	position: relative;
+	top: 30px;
+}
+.prezent1 .linija1 {
+	height: 30px;
+	width: 160px;
+	position: relative;
+	display: inline-block;
+}
+
+.prezent2 img {
+	display: inline-block;
+	position: absolute;
+	width: 650px;
+	height: 140px;
+	left: 500px;
+	top: 110px;
+}
+
+.prezent2 .linija2 {
+	height: 55px;
+	width: 160px;
+	position: absolute;
+	display: inline-block;
+	left: 1000px;
+	top: 30px;
+}
+
+.prezent3 img {
+	display: inline-block;
+	position: absolute;
+	height: 250px;
+	width: 260px;
+	left: 500px;
+	top: 350px;
+}
+
+.prezent4 img {
+	display: inline-block;
+	position: absolute;
+	height: 250px;
+	width: 260px;
+	left: 900px;
+	top: 350px;
+}
